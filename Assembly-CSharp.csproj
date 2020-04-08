@@ -58,6 +58,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\HapticScene.cs" />
      <Compile Include="Assets\Scripts\IOSNative.cs" />
+     <Compile Include="Assets\Scripts\Vibration.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/scnipper/Documents/unity/HapticTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

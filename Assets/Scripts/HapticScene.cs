@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using BlackBears.GameCore.Features.Vibration;
+using UnityEngine;
 
 public class HapticScene : MonoBehaviour
 {
@@ -25,5 +26,18 @@ public class HapticScene : MonoBehaviour
 	public void Rigid()
 	{
 		IOSNative.StartHapticFeedback(HapticFeedbackTypes.RIGID);
+	}
+
+	public void VibratePop()
+	{
+		Vibration.VibratePop();
+	}
+	public void VibratePeek()
+	{
+		Vibration.VibratePeek();
+	}
+	public void VibrateNope()
+	{
+		Vibration.VibrateNope();
 	}
 }
